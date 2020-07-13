@@ -1,0 +1,26 @@
+using types::{ long, double, float, size_t }
+
+fn test_return_long() -> long {
+  return 1234;
+}
+
+fn test_return_double() -> double {
+  return 1234.5678;
+}
+
+fn test_return_float() -> float {
+  return 1234.5678;
+}
+
+fn test_return_size_t() -> size_t {
+  return 123456789;
+}
+
+
+fn main() -> int {
+  test_return_long();
+  test_return_double();
+  test_return_float();
+  test_return_size_t();
+  return 0;
+}
